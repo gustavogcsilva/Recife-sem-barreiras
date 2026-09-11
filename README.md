@@ -64,7 +64,7 @@ O projeto adota uma arquitetura desacoplada, garantindo escalabilidade em moment
 
 ## 👨‍💻 Desenvolvedor & Agradecimentos
 
-Projeto idealizado e desenvolvido por **Gustavo Geraldo Campos da Silva** através da **GCS Core System Intelligence**.
+Projeto idealizado e desenvolvido por **Gustavo Geraldo Campos da Silva**,
 
 Gostaria de registrar um agradecimento especial a **Gleica Campos** pelo incentivo contínuo e suporte durante a idealização do projeto, e ao **Professor Victor Brayner** pelas orientações técnicas fundamentais ao longo da jornada de desenvolvimento de software.
 
