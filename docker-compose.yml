@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4-alpine
+    container_name: recife_sem_fronteiras_gis
+    restart: always
+    environment:
+      POSTGRES_USER: recife_admin
+      POSTGRES_PASSWORD: recife_s_fron.dev
+      POSTGRES_DB: recife_sem_fronteiras
+    ports:
+      - "5432:5432"
+    volumes:
+      - gis_data:/var/lib/postgresql/data
+      - ./init-db:/docker-entrypoint-initdb.d
+
+volumes:
+  gis_data:
