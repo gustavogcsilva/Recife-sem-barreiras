@@ -7,6 +7,7 @@ services:
       POSTGRES_USER: recife_admin
       POSTGRES_PASSWORD: recife_s_fron.dev
       POSTGRES_DB: recife_sem_fronteiras
+      TZ: America/Sao_Paulo
     ports:
       - "5432:5432"
     volumes:
